@@ -49,7 +49,7 @@ public:
 
 private:
     detail::GelfSerializer serializer_;
-    boost::asio::io_service service_;
+    boost::asio::io_context service_;
     boost::asio::ip::udp::endpoint endpoint_;
     std::unique_ptr<boost::asio::ip::udp::socket> socket_;
 };
