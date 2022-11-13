@@ -4,7 +4,7 @@
 #include <gelfcpp/detail/DocumentAccessor.hpp>
 #include <rapidjson/stringbuffer.h>
 #include <rapidjson/writer.h>
-
+#include <ostream>
 
 namespace gelfcpp
 {
